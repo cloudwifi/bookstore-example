@@ -136,6 +136,10 @@
                 <version>11.0.15</version>
                 <configuration>
                     <scan>2</scan>
+                         <httpConnector>
+                            <host>0.0.0.0</host>
+                            <port>8080</port>
+                       </httpConnector>
                 </configuration>
             </plugin>
 
