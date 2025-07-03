@@ -137,7 +137,7 @@
                 <configuration>
                     <scan>2</scan>
                     <webApp>
-                        <war>${project.basedir}/src/main/webapp</war>
+                        <war>${project.build.directory}/${project.build.finalName}</war>
                         <contextPath>/</contextPath>
                     </webApp>
                     <httpConnector>
